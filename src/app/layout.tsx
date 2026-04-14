@@ -13,27 +13,17 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 export const metadata: Metadata = {
   title: config.title,
   description: config.description.long,
-  keywords: config.keywords,
   authors: [{ name: config.author }],
   openGraph: {
     title: config.title,
     description: config.description.short,
-    url: config.site,
-    images: [
-      {
-        url: config.ogImg,
-        width: 800,
-        height: 600,
-        alt: "Portfolio preview",
-      },
-    ],
+    url: config.github,
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: config.title,
     description: config.description.short,
-    images: [config.ogImg],
   },
   robots: {
     index: true,
