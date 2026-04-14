@@ -1,45 +1,32 @@
-const config = {
-  title: "Naresh Khatri | Full-Stack Developer",
+export const config = {
+  name: "Anupam Pandey",
+  author: "Anupam Pandey",
+  title: "Full Stack Developer | CSE Student | AI Enthusiast",
   description: {
-    long: "Explore the portfolio of Naresh, a full-stack developer and creative technologist specializing in interactive web experiences, 3D animations, and innovative projects. Discover my latest work, including Coding Ducks, The Booking Desk, Ghostchat, and more. Let's build something amazing together!",
-    short:
-      "Discover the portfolio of Naresh, a full-stack developer creating interactive web experiences and innovative projects.",
+    short: "CSE Student passionate about AI and Web Development.",
+    long: "I am a passionate Computer Science student focused on building real-world solutions using technology. I have a strong interest in Artificial Intelligence, Web Development, and problem-solving. Currently preparing for GATE 2027 while building practical projects.",
   },
-  keywords: [
-    "Naresh",
-    "portfolio",
-    "full-stack developer",
-    "creative technologist",
-    "web development",
-    "3D animations",
-    "interactive websites",
-    "Coding Ducks",
-    "The Booking Desk",
-    "Ghostchat",
-    "web design",
-    "GSAP",
-    "React",
-    "Next.js",
-    "Spline",
-    "Framer Motion",
+  social:{
+  github: "https://github.com/anupampandeyunique",
+  linkedin: "https://www.linkedin.com/in/anupampandeyunique",
+  twitter: "https://twitter.com/theanupampandey",
+  },
+  email: "anupampandeyunique@gmail.com",
+  github: "https://github.com/anupampandeyunique",
+  linkedin: "https://www.linkedin.com/in/anupampandeyunique",
+  education: "B.Tech in Computer Science Engineering (2nd Year), United College of Engineering and Research (AKTU)",
+  skills: [
+    "Data Structures & Algorithms",
+    "Java Programming",
+    "Web Development (HTML, CSS, JavaScript, React)",
+    "Problem Solving",
   ],
-  author: "Naresh Khatri",
-  email: "naresh.khatri2345@gmail.com",
-  site: "https://nareshkhatri.site",
-
-  // for github stars button
-  githubUsername: "naresh-khatri",
-  githubRepo: "3d-portfolio",
-
-  get ogImg() {
-    return this.site + "/assets/seo/og-image.png";
-  },
-  social: {
-    twitter: "https://x.com/nothotchaddi",
-    linkedin: "https://www.linkedin.com/in/naresh-khatri/",
-    instagram: "https://www.instagram.com/hotchaddi",
-    facebook: "https://www.facebook.com/HotChaddi/",
-    github: "https://github.com/Naresh-Khatri",
-  },
+  achievements: [
+    "Winner of Go Creative Film Making Event (1st Rank)",
+    "Student Ambassador at eDC IIT DELHI ",
+  ],
+  goals: [
+    "Build impactful AI-based products",
+    "Start my own ed-tech startup",
+  ],
 };
-export { config };

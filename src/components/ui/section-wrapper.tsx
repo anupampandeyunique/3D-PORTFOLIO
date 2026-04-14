@@ -6,9 +6,10 @@ import { cn } from "@/lib/utils";
 
 interface SectionWrapperProps extends React.HTMLAttributes<HTMLElement> {
   children: React.ReactNode;
+ class: string;
 }
 
-const SectionWrapper = ({ id, className, children, ...props }: SectionWrapperProps) => {
+const SectionWrapper = ({ id, className, children, class: _class, ...props }: SectionWrapperProps) => {
   const containerRef = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,
